@@ -1291,7 +1291,7 @@ export default function HardQuiz({ onBack }) {
                                         onClick={nextQuestion}
                                         className="w-full py-5 bg-white text-slate-900 font-bold rounded-2xl text-xl hover:bg-slate-200 transition-all flex items-center justify-center gap-2"
                                     >
-                                        {currentIdx + 1 === questions.length ? "Finalize Report" : "Commit & Continue"}
+                                        {currentIdx + 1 === questions.length ? "Finalize Report" : "Next Question Please"}
                                         <ChevronRight className="w-6 h-6" />
                                     </button>
                                 </div>

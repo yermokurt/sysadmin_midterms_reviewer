@@ -604,7 +604,7 @@ export default function MediumQuiz({ onBack }) {
                                         onClick={nextQuestion}
                                         className="w-full bg-blue-600 hover:bg-blue-500 text-white font-bold py-5 rounded-2xl flex items-center justify-center gap-2 transition-all shadow-xl shadow-blue-900/20 active:scale-[0.98]"
                                     >
-                                        {currentQuestion + 1 === quizData.length ? 'Finalize Assessment' : 'Next Transmission'}
+                                        {currentQuestion + 1 === quizData.length ? 'Finalize Assessment' : 'Next Question Please'}
                                         <ChevronRight className="w-5 h-5" />
                                     </button>
                                 </div>
