@@ -1397,7 +1397,7 @@ export default function CodeFocusedQuiz({ onBack }) {
                                         onClick={nextQuestion}
                                         className="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-5 rounded-2xl flex items-center justify-center gap-2 transition-all shadow-xl shadow-emerald-900/20 active:scale-[0.98]"
                                     >
-                                        {currentIdx + 1 === technicalQuestions.length ? 'Finalize Assessment' : 'Next Transmission'}
+                                        {currentIdx + 1 === technicalQuestions.length ? 'Finalize Assessment' : 'Next Question!!!'}
                                         <ChevronRight className="w-5 h-5" />
                                     </button>
                                 </div>

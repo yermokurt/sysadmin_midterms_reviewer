@@ -105,7 +105,7 @@ export default function App() {
         <div className="flex items-center justify-center gap-8 text-slate-500 font-medium text-sm">
           <div className="flex items-center gap-2">
             <ShieldCheck className="w-4 h-4" />
-            <span>Mastery Level</span>
+            <span>Module 2 palang din</span>
           </div>
           <div className="w-1 h-1 bg-slate-700 rounded-full" />
           <span>Goodluck!</span>
