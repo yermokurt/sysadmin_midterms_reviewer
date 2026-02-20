@@ -8,7 +8,6 @@ import {
     ChevronRight,
     Database,
     Search,
-    Server,
     ArrowLeft
 } from 'lucide-react';
 
